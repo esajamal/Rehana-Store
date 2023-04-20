@@ -1,0 +1,53 @@
+const data = {
+  products: [
+    {
+      name: 'Nike Slim Shirt',
+      slug: 'nike-slim-shirt',
+      category: 'Shirts',
+      image: '/images/p1.jpg', //679 * 829
+      price: 120,
+      countInStock: 10,
+      brand: 'Nike',
+      rating: 4.5,
+      numReviews: 10,
+      description: 'high quality shirt',
+    },
+    {
+      name: 'Addidas Fit Shirt',
+      slug: 'addidas-fit-shirt',
+      category: 'Shirts',
+      image: '/images/p2.jpg',
+      price: 250,
+      countInStock: 100,
+      brand: 'addidas',
+      rating: 3,
+      numReviews: 120,
+      description: 'high quality shirt',
+    },
+    {
+      name: 'Nike Slim Pant',
+      slug: 'nike-slim-pant',
+      category: 'Pants',
+      image: '/images/p3.jpg',
+      price: 100,
+      countInStock: 18,
+      brand: 'Nike',
+      rating: 3.5,
+      numReviews: 12,
+      description: 'high quality shirt',
+    },
+    {
+      name: 'Addidas Slim Pant',
+      slug: 'addidas-slim-pant',
+      category: 'Pants',
+      image: '/images/p4.jpg',
+      price: 50,
+      countInStock: 7,
+      brand: 'Nike',
+      rating: 2.5,
+      numReviews: 10,
+      description: 'high quality shirt',
+    },
+  ],
+};
+export default data;
