@@ -3,7 +3,7 @@ import axios from 'axios';
 import logger from 'use-reducer-logger';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import Products from '../components/Products';
+import Product from '../components/Product';
 import { Helmet } from 'react-helmet-async';
 import LoadingBox from '../components/LoadingBox';
 import MessageBox from '../components/MessageBox';
@@ -56,7 +56,7 @@ export default function HomeScreen() {
           <Row>
             {products.map((product) => (
               <Col key={product.slug} sm={6} md={4} lg={3} className="mb-3">
-                <Products product={product}></Products>
+                <Product product={product}></Product>
               </Col>
             ))}
           </Row>
