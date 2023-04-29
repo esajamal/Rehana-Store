@@ -1,6 +1,7 @@
 const data = {
   products: [
     {
+      _id: '1',
       name: 'Nike Slim Shirt',
       slug: 'nike-slim-shirt',
       category: 'Shirts',
@@ -16,6 +17,7 @@ const data = {
       visible: 0,
     },
     {
+      _id: '2',
       name: 'Addidas Fit Shirt',
       slug: 'addidas-fit-shirt',
       category: 'Shirts',
@@ -31,6 +33,7 @@ const data = {
       visible: 0,
     },
     {
+      _id: '3',
       name: 'Nike Slim Pant',
       slug: 'nike-slim-pant',
       category: 'Pants',
@@ -46,6 +49,7 @@ const data = {
       visible: 0,
     },
     {
+      _id: '4',
       name: 'Addidas Slim Pant',
       slug: 'addidas-slim-pant',
       category: 'Pants',
@@ -61,6 +65,7 @@ const data = {
       visible: 0,
     },
     {
+      _id: '5',
       name: 'MS Woman Shoes',
       slug: 'MS-Woman-Shoes-23111',
       category: 'Shoes',
@@ -76,6 +81,7 @@ const data = {
       visible: 1,
     },
     {
+      _id: '6',
       name: 'MS Woman Shoes',
       slug: 'MS-Woman-Shoes-23111',
       category: 'Shoes',
@@ -91,8 +97,9 @@ const data = {
       visible: 1,
     },
     {
+      _id: '7',
       name: 'MS Woman Shoes',
-      slug: 'MS-Woman-Shoes-23111',
+      slug: 'MS-Woman-Shoes-23112',
       category: 'Shoes',
       image: '/images/s2.jpg', //679 * 829
       price: 20000,
@@ -106,8 +113,9 @@ const data = {
       visible: 1,
     },
     {
+      _id: '8',
       name: 'MS Woman Shoes',
-      slug: 'MS-Woman-Shoes-23111',
+      slug: 'MS-Woman-Shoes-23113',
       category: 'Shoes',
       image: '/images/s3.jpg', //679 * 829
       price: 20000,
@@ -121,8 +129,9 @@ const data = {
       visible: 1,
     },
     {
+      _id: '9',
       name: 'MS Woman Shoes',
-      slug: 'MS-Woman-Shoes-23111',
+      slug: 'MS-Woman-Shoes-23114',
       category: 'Shoes',
       image: '/images/s4.jpg', //679 * 829
       price: 20000,
@@ -136,8 +145,9 @@ const data = {
       visible: 1,
     },
     {
+      _id: '10',
       name: 'MS Woman Shoes',
-      slug: 'MS-Woman-Shoes-23111',
+      slug: 'MS-Woman-Shoes-23115',
       category: 'Shoes',
       image: '/images/s5.jpg', //679 * 829
       price: 20000,
